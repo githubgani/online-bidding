@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1, h2 {
+    text-align: center;
+}
+.input-section, .bidding-section, .results-section {
+    margin: 20px;
+    padding: 10px;
+}
+.input-section label, .bidding-section label, .results-section label, 
+.input-section input, .bidding-section input, .results-section input,
+.input-section button, .bidding-section button, .results-section button {
+    margin-right: 10px;
+}
+.input-section input[type="text"], .input-section input[type="number"],
+.bidding-section input[type="text"], .bidding-section input[type="number"] {
+    padding: 5px;
+}
+.input-section button, .bidding-section button, .results-section button {
+    padding: 5px 10px;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: rgb(0, 123, 255);
+    color: white;
+}

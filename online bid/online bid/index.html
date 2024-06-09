@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Bidding</title>
+</head>
+<body>
+    <h1>Online Bidding</h1>
+    <div class="input-section">
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name">
+        
+        <label for="base-price">Base Price:</label>
+        <input type="number" id="base-price">
+        
+        <button id="add-product-btn">Add Product</button>
+    </div>
+    
+    <div class="bidding-section">
+        <h2>Available Products</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Base Price</th>
+                    <th>Bid</th>
+                </tr>
+            </thead>
+            <tbody id="bidding-table-body">
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="bidding-section">
+        <h2>Enter Your Bid</h2>
+        <label for="bid-product-name">Product Name:</label>
+        <input type="text" id="bid-product-name">
+        
+        <label for="bid-amount">Bid Amount:</label>
+        <input type="number" id="bid-amount">
+        
+        <button id="place-bid-btn">Place Bid</button>
+    </div>
+    
+    <div class="results-section">
+        <h2>Results</h2>
+        <button id="declare-winner-btn">Declare Winner</button>
+        <p id="winner-announcement"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
